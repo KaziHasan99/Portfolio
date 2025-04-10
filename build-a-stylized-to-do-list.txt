@@ -1,0 +1,119 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+    <title>Styled To-Do List</title>
+</head>
+
+<body>
+    <header>
+        <h1>My To-do List</h1>
+        </header>
+
+    <ul class="todo-list">
+        <li>
+            <input type="checkbox" id="pray" name="pray">
+            <label for="pray">Pray all the required prayers</label>
+            <ul class="sub-item">
+                <li>
+                    <a class="sub-item-link" href="https://www.mymasjid.ca/beginners-guide-learn-pray-salah/chapter-4/"  target="_blank">How to Pray Salah</a>
+            </li>
+            </ul>
+            </li> 
+
+        <li>
+            <input type="checkbox" id="recite" name="recite">
+            <label for="recite">Recite few pages of the Quran</label>
+            <ul class="sub-item">
+                <li>
+                    <a class="sub-item-link" href="https://quran.com/en" target="_blank">The Book of Quran</a>
+                </li>
+            </ul>
+        </li>
+
+        <li>
+            <input type="checkbox" id="study" name="study">
+            <label for="study">Study the freecodecamp course</label>
+            <ul class="sub-item">
+                <li>
+                    <a class="sub-item-link" href="https://www.freecodecamp.org/" target="_blank">Free Code Camp Course</a>
+                </li>
+            </ul>
+        </li>
+            
+        <li>
+            <input type="checkbox" id="games" name="games">
+            <label for="games">Play video games to end the night</label>
+            <ul class="sub-item">
+                <li>
+                    <a class="sub-item-link" href="https://store.steampowered.com/" target="_blank">Steam Gaming Platform</a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+</body>
+
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+h1 {
+  text-align: center;
+  font-style: Calibri, asans-serif;
+  background-color: white;
+}
+
+body {
+  text-align: center;
+  font-style: sans-serif;
+  background-color: white;
+  padding: 10px;
+}
+
+.todo-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-list li {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: cyan;
+}
+
+.sub-item {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.sub-item-link {
+  text-decoration: none;
+  color: blue;
+}
+
+.sub-item-link:hover {
+  color: red;
+}
+
+.sub-item-link:active {
+  color: green;
+}
+
+.sub-item-link:focus {
+  outline: 2px solid blue;
+}
+
+.sub-item-link:visited {
+  color: purple;
+}
+
+** end of undefined **
+

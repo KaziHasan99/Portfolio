@@ -1,0 +1,144 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+</head>
+<body>
+    <h1>Job Application Form</h1>
+    <div class="container">
+        <form action="submit" method="post">
+            <label for="name">Full-Name</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter Your name"><br><br>
+            <label class="email" for="email">Email Address</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
+
+            <label class="position">Position</label><br>
+            <select id="position" name="position">
+                <option value="" disabled selected>Select a position</option>
+                <option value="software">Software Developer</option>
+                <option value="web">Web Developer</option>
+                <option value="app">App Developer</option>
+                </select><br><br>
+
+                <label>Availability</label>
+                <fieldset class="radio-group">
+                    <label>
+                    <input type="radio" id="full-time" name="availability">Full-time</label>
+                    <label>
+                    <input type="radio" id="part-time" name="availability">Part-time</label>
+                    </fieldset><br><br>
+                    <label class="message" for="message">Why should we hire you?</label>
+                    <textarea id="message" cols="50" rows="5" placeholder="State your reasoning"></textarea><br><br>
+                    <button type="submit">Submit Application</button>
+
+            </form>
+              
+        </div>
+
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+input:focus, textarea:focus {
+  border-color: red;
+  border-radius: 5px;
+  border-width: 2px;
+  border-style: solid;
+}
+
+input:invalid, select:invalid, textarea:invalid {
+  border-color: red;
+  border-radius: 5px;
+  border-width: 2px;
+  border-style: solid;
+} 
+
+input:valid, select:valid, textarea:valid {
+  border-color: green;
+  border-radius: 5px;
+  border-width: 2px;
+  border-style: solid;
+} 
+
+.radio-group input[type="radio"]:checked {
+  border: 2px solid skyblue;
+  background-color: pink;
+  box-shadow: 0 0 5px 2px;
+
+}
+button:hover {
+  background-color: lightgreen;
+}
+
+h1 {
+  text-align: center;
+}
+
+.message {
+  font-size: 25px ;
+  font-weight: bold;
+}
+.radio-group label:has(input[type="radio"]:checked) {
+  color: purple;
+  font-weight: bold;
+}
+
+input:nth-child(1) {
+  background-color: light-blue;
+  border: 2px solid blue;
+  font-weight: bold;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+input[type="text"] {
+  width: 98%;
+  height: 30px;
+}
+
+input[type="email"] {
+  width: 98%;
+  height: 30px;
+}
+
+label[for="name"] {
+  font-size: 25px ;
+  font-weight: bold;
+}
+
+label[for="email"] {
+  font-size: 25px ;
+  font-weight: bold;
+}
+
+label {
+  font-size: 25px ;
+  font-weight: bold;
+}
+
+#position {
+  width: 99%;
+  height: 35px;
+}
+
+.radio-group label {
+  font-weight: normal;  /* Remove bold from all labels */
+}
+
+button[type="submit"] {
+  width: 99%;
+  height: 30px;
+  text-align: center;
+  color: purple;
+}
+
+** end of undefined **
+

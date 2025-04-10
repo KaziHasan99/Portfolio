@@ -1,0 +1,70 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post Card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="blog-post-card">
+        <img class="post-img" src="https://cdn.freecodecamp.org/curriculum/labs/cover-photo.jpg" alt="Blog Post Card">
+
+        <div class="post-content">
+            <h2 class="post-title">The Art of Summarizing Blog Posts: A Guide to Capturing Key Insights</h2>
+            <p class="post-excerpt">Summarizing blog posts enhances readability, saves time, and boosts engagement by capturing key insights concisely. By identifying main ideas, extracting key points, and using clear, concise language, summaries make content more accessible. Utilizing AI tools or manual methods can optimize this process, ensuring valuable information reaches a wider audience efficiently.</p>
+            <a class="read-more">Read More</a>
+            </div>
+</div>
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+.blog-post-card {
+  border-radius: 100px;
+  background-color: white;
+  width: 350px;
+  text-align: center;
+}
+
+.post-content {
+  padding: 10px;
+  
+}
+
+.read-more {
+  color: blue;
+  background-color: cyan;
+  margin: 10px;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.read-more:hover {
+  background-color: red;
+}
+
+.post-img {
+  width: 100%;
+  border-bottom: 5px solid yellow;
+}
+
+.post-title {
+  margin: 10px;
+  color: red;
+}
+
+.post-excerpt {
+  margin: 10px;
+  color: green;
+  padding: 10px;
+}
+
+** end of undefined **
+
