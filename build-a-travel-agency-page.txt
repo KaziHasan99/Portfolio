@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>TravelAgencyPage</title>
+    <meta 
+    name="description"
+    content="Explore the true beauty of Bangladesh"/>
+    </head>
+    <body>
+      <main>
+        <h1>
+          Discover Bangladesh
+          </h1>
+          <p>
+            Discover the breathtaking beauty of Bangladesh - a hidden gem of south Asia. From the serene beaches of Cox's Bazar, the longest natural sea beach in the world, to the enchanting Sundarbans, home to the Royal Bengal Tiger, every corner of Bangladesh offers a unique adventure. Immerse yourself in its rich culture, vibrant festivals, and warm hospitality. Whether you seek tranquil rivers, ancient historical sites, or bustling city life, Bangladesh promises an unforgettable journey. Let us guide you through the heart of this extraordinary land.
+            </p>
+            <h2>
+              Packages
+              </h2>
+              <p>
+                Here are some exciting travel packages for your travel to Bangladesh, catering to different interests and budgets.
+                </p>
+                <ul>
+                  <li><a target="_blank" href="https://www.freecodecamp.org/learn" target="_blank">Group Travels</a></li>
+                  <li><a href="https://www.freecodecamp.org/learn" target="_blank">Private Tours</a></li>       
+                  </ul>
+                  <h2>
+                    Top Itineraries
+                    </h2>
+                    <figure>
+                      <a href="https://www.freecodecamp.org/learn" target="_blank">                      
+                      <img src="beach.jpg" alt="Famous Sea Beach of Bangladesh"></a>
+                      <figcaption>A beautiful beach in Bangladesh</figcaption>
+                      </figure>
+
+                    <figure>
+                      <a href="https://www.freecodecamp.org/learn" target="_blank">                     
+                      <img src="sajek.jpg" alt="Sajek Valley in the Chittagong Hill Tracts"></a>
+                      <figcaption>Sajek Valley</figcaption>
+                      </figure>
+
+                    <figure>
+                      <a href="https://www.freecodecamp.org/learn" target="_blank">                      
+                      <img src="sundarbans.jpg" alt="Famous Mangrove forest in Bangladesh"></a>
+                      <figcaption>The Sundarbans Forest</figcaption>                      
+                    </figure>
+                    
+                    
+
+                  
+
+            
+
+      </main>
+    </body>  
+</html>
+

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Here's an example of a project that meets the requirements</title>
+</head>
+
+<body>
+    <main>
+        <h1>Video game clips uploaded to my Youtube channel</h1>        
+        <p>I personally am a big fan of video gaming. I have played various types of games throughout the years. I have uploaded three clips of me playing video games on my Youtube channel.</p>
+        <section>
+            <h2>Grand Theft Auto V ran over a poor dog</h2>
+            <p>In this gaming clip I was driving around the GTA V map and suddenly a dog came out of nowhere. I tried my best to swerve out of the way but failed and ended up running over the poor dog.</p>
+            <iframe
+                src="https://youtu.be/nFOVGmP7cuA?si=HD7hvDD7pTmEVok7"
+                title="Grand Theft Auto V ran over a poor dog"
+                height="285"
+                width="500"
+                allowfullscreen
+            ></iframe>
+        </section>
+        <section>
+            <h2>Call of Duty Modern Warfare SND</h2>
+            <p>In this clip you can see me playing Call of Duty Modern Warfare. I was playing with my friends. The game mode we were playing was Search and Destroy. In this clip you can see no scoping one of the opponent players.</p>
+            <iframe
+            src="https://youtu.be/Y9SIfhvOUO8?si=Pji6ZBO4VPPbY6Li"
+            title="Call of Duty Modern Warfare SND"
+            height="285"
+            width="500"
+            allowfullscreen
+            ></iframe>
+            </section>
+            <section>
+                <h2>Fifa 18</h2>
+                <p>I uploaded this gaming clip on Youtube in 2017.I was playing Fifa 18 at the time and I recorded my gameplay to upload on my Youtube channel so that my friends can see how good of a Fifa player I was at the time.</p>
+                <iframe
+                src="https://youtu.be/JBFrTGIeVN4?si=edhSGbC3cUe3hjH8"
+                title="Fifa 18"
+                height="285"
+                width="500"
+                allowfullscreen
+                ></iframe>
+                </section>
+
+
+
+
+        </main>
+
+</body>
+
+</html>

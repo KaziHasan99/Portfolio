@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Event Hub</title>
+</head>
+
+<body>
+    <header>
+    <h1>Event Hub</h1>
+    <nav>
+        <ul>
+        <li><a href="#upcoming-events">Upcoming Events</a></li>
+        <li><a href="#past-events">Past Events</a></li>
+            </header>
+            <main>
+                <section id="upcoming-events">
+                <h2>Upcoming Events</h2>
+                <article>
+                 <h3>Community Tech Workshop</h3>
+                 <p>Join us for a beginner friendly tech workshop where you will learn the basics of HTML and CSS.</p>
+                 </article>
+
+                <article>
+                 <h3>Spring Coding Hackathon</h3>
+                 <p>A full day hackathon open to students of all levels. Collaborate, code, and create amazing projects.</p>
+                </section>
+                 
+
+                 <section id="past-events">
+                  <h2>Past Events</h2>
+                  <article>
+                    <h3>Intro to Web Development Webinar</h3>
+                    <p>A virtual session covering the foudations of web development, including HTML, CSS, and JavaScript</P>
+
+                <img src="https://cdn.freecodecamp.org/curriculum/labs/past-event1.jpg" alt="Intro to Web Development Webinar">
+                </article>
+
+                <article>
+                    <h3>Student Portfolio Showcase</h3>
+                    <p>An event where students present their coding projects and recieve feedback from industry professionals.</p>
+                    <img src="https://cdn.freecodecamp.org/curriculum/labs/past-event2.jpg" alt="Student Portfolio Shoecase">
+                    </article>
+                   </section>
+                 </main>
+              </body>
+            </html>

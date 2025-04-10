@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+<h1 id="title">Uber Car ride Experience</h1>
+  <p id="description">Thank you for choosing us. Your co-operation will help us improve our platform.</p>
+  <body>
+    <form id="survey-form">
+
+      <div>
+      <label for="full name" id="name-label">Name (required):</label>
+      <input type="text" id="name" placeholder="Ex. Kazi Hasan" required >
+      </div>
+
+      <div>
+      <label for="email" id="email-label">Email (required):</label>
+      <input type="email" id="email" placeholder="example@gmail.com" required>
+      </div>
+
+      <div>
+      <label for="age" id="number-label">Age(optional):</label>
+      <input type="number" id="number" min="18" max="65" placeholder="Age">
+      </div><br>
+
+      <label>Would you ride with us again?</label>
+      <select for="service" id="dropdown">
+        <option value="definitely">Definitely</option>
+        <option value="maybe">Maybe</option>
+        <option value="not-sure">Not Sure</option>
+        </select><br><br>
+
+       <label>Would you recommend us to others?</label><br>
+       <label for="yes">yes</label>
+       <input type="radio" id="yes" name="recommend" value="yes">
+       <label for="maybe">Maybe</label>
+       <input type="radio" id="maybe" name="recommend" value="maybe">
+       <label for="no">No</label>
+       <input type="radio" id="no" name="recommend" value="no"><br><br>
+
+
+
+       <label>What would you like for us to improve?(check all that apply)</label><br>
+       <label for="driver">Driving skill</label>
+       <input type="checkbox" value="driver">
+       <label for="cleanliness">Car cleanliness</label>
+       <input type="checkbox" value="cleanliness">
+       <label for="smell">Smell inside Car</label>
+       <input type="checkbox" value="smell">
+       <label for="service">Service </label>
+       <input type="checkbox" value="service">
+       <label for="pricing">Pricing</label>
+       <input type="checkbox" value="pricing"> 
+       <label for="app">Mobile App</label>
+       <input type="checkbox" value="app"><br><br>
+
+       <label for="comments">Any other comments/suggestion?</label>
+       <div>
+       <textarea cols="40" rows="3" name="comments" id="comments"></textarea><br><br>
+
+       <button id="submit">Submit</button>
+
+      </form>
+
+  </body>
+</html>
