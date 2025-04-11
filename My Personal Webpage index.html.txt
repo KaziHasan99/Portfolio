@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>PersonalWebpage</title>
+  </head>
+  <body id="top">
+  <header>
+    <h1>Personal Webpage</h1>
+    <p>Hello guys and welcome to my Personal Webpage in which you will get to know me more</p>
+    </header>
+    <section>
+      <h2>About Me</h2>
+      <p>Hello guys, my name is Kazi Hasan. I am 25 years old. I was born and raised in Bangladesh but currently living in Queens, New York with my family. I have graduated from Richmond Hill High School and currently attending New York City College of Technology. I am pursuing a bachelor's degree and my major is CST(Computer Systems Technology).</p><br>
+      <img src="https://cdn.shopify.com/s/files/1/0104/2897/3107/files/01-Bangladesh.jpg?v=1691077382" alt="the flag of my country Bangladesh" width="500">
+      <p>Here is a video about Bangladesh that will give you a clear idea of where I grew up in</p>
+           <iframe 
+            width="560" 
+            height="315"
+            src="https://www.youtube.com/embed/XvQmFpwQILE?si=Qj4VsQbYGL7jJ3at" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen>
+            </iframe>
+      </section>
+        <section>
+          <h2>Personal Hobbies</h2>
+          <p>I like to do things that I find to be fun during my free time. Some of these things are:</p>
+          <ul>
+            <li>Spending time with my nephew</li>
+            <li>Playing sports</li>
+            <li>Watching sports</li>
+            <li>Playing video games</li>
+          </ul>
+          </section>
+          <section>
+            <h2>Sports</h2>
+            <p>As I have mentioned before that I like to play sports and watch sports as well. I mostly play and watch soccer. My favourite soccer club is <strong>Real Madrid</strong>. I have been a Real Madrid fan for over 12 years. So all of my favorite soccer players have played for <a href="https://www.realmadrid.com/en-US">Real Madrid</a>. Below I will be ranking my top 5 favorite soccer players of all time.</p>
+              <ol>
+                <li>Cristiano Ronaldo</li>
+                <a href="https://en.wikipedia.org/wiki/Cristiano_Ronaldo" target="_blank">
+                <img src="https://publish-p47754-e237306.adobeaemcloud.com/content/dam/portals/realmadrid-com/es-es/sports/football/legendary-players/cristiano-ronaldo-dos-santos-aveiro/assets/1330603286208.app.jpg?$Mobile$&wid=348" alt="Cristiano Ronaldo" width="200" height="250">
+                </a>
+                <li>Karim Benzema</li>
+                <a href="https://en.wikipedia.org/wiki/Karim_Benzema" target="_blank">
+                <img src="https://publish-p47754-e237306.adobeaemcloud.com/content/dam/portals/realmadrid-com/es-es/sports/football/legendary-players/karim-benzema/assets/1330830945339.app.jpg?$Mobile$&wid=348" alt="Karim Benzema" width="200" height="250">
+                </a>
+                <li>Luka Modric</li>
+                <a href="https://en.wikipedia.org/wiki/Luka_Modri%C4%87" target="_blank">
+                <img src="https://publish-p47754-e237306.adobeaemcloud.com/adobe/dynamicmedia/deliver/dm-aid--9b44593c-efb6-4349-9c40-93b47b2d61fd/_80x501____1.app.webp?preferwebp=true&width=288&height=384" alt="Luka Modric" width="200" height="250">
+                </a>
+                <li>Sergio Ramos</li>
+                <a href="https://en.wikipedia.org/wiki/Sergio_Ramos" target="_blank">
+                <img src="https://publish-p47754-e237306.adobeaemcloud.com/content/dam/portals/realmadrid-com/es-es/sports/football/legendary-players/sergio-ramos-garcia/assets/1330734572556.app.jpg?$Mobile$&wid=348" alt="Sergio Ramos" width="200" height="250">
+                </a>
+                <li>Toni Kroos</li>
+                <a href="https://en.wikipedia.org/wiki/Toni_Kroos" target="_blank">
+                <img src="https://publish-p47754-e237306.adobeaemcloud.com/content/dam/portals/realmadrid-com/es-es/sports/football/legendary-players/00-fotos-jugadores-leyenda-nuevos/KROOS2_HP_PNG.app.jpg?$Mobile$&wid=348" alt="Toni Kroos" width="200" height="250">
+                </a>
+            </ol>
+        </section><br>
+        <section>
+          <h2>Video Games</h2>
+          <p>I have been a huge fan of video games since childhood. I have played numerous games over the years. Below is a table consisting of some of the best games I have played.</p>
+        <table border="1">
+          <thead>
+            <tr>
+              <th>Games</th>
+              <th>Genre</th>
+              <th>Release Date</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Black Ops 3</td>
+              <td>First Person Shooter</td>
+              <td>2015</td>
+            </tr>
+            <tr>
+              <td>Dead By Daylight</td>
+              <td>Horror</td>
+              <td>2016</td>
+            </tr>
+            <tr>
+              <td>GTA V</td>
+              <td>Open World Adventure</td>
+              <td>2013</td>
+            </tr>
+            <tr>
+              <td>Fortnite</td>
+              <td>Battle Royale</td>
+              <td>2017</td>
+            </tr>
+          </tbody>
+        </table>
+        </section><br>
+        <section>
+          <h2>Contact Me</h2>
+          <p>Below is a "Contact Me" section. For anyone that wants to ask me questions or leave a message for me.</p>
+          <form action="/submit_form" method="post">
+          <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Name (required):</label>
+            <input required type="text" id="name" name="name" placeholder="Ex. Kazi Hasan">
+            <label for="email">Email (required):</label>
+            <input required type="email" id="email" name="email" placeholder="example5@gmail.com"><br>
+            <label for="age">Age (optional):</label>
+            <input type="number" id="age" name="age" placeholder="25" min="18" max="65">
+            </fieldset><br>
+            <label>Do you have any questions for me?(check all that apply)</label><br>
+            <label for="sports">What other sports do you play or watch?</label>
+            <input type="checkbox" id="sports" name="sports" value="sports"><br>
+            <label for="major">What is your reason behind choosing CST as your major?</label>
+            <input type="checkbox" id="major" name="major" value="major"><br>
+            <label for="bangladesh">How was your experience growing up in Bangladesh?</label>
+            <input type="checkbox" id="bangladesh" name="bangladesh" value="bangladesh"><br>
+            <label for="marriage">Are you married?</label>
+            <input type="checkbox" id="marriage" name="marriage" value="marriage"><br>
+            <label for="games">Who do you play video games with?</label>
+            <input type="checkbox" id="games" name="games" value="games"><br>
+            <label>How would you rate my Personal Webpage?</label>
+            <select type="dropdown" id="survey">
+              <option value="excellent">Excellent</option>
+              <option value="very-good">Very Good</option>
+              <option value="good">Good</option>
+              <option value="decent">Decent</option>
+              <option value="bad">Bad</option>
+              </select><br>
+          <label>Do you want to leave me a message?</label><br>
+          <textarea cols="20" rows="3" name="comments" id="comments"></textarea><br>
+            
+            <button id="submit">Submit</button>
+          </form>
+    </section>
+      <address>
+        <h2>Kazi Hasan</h2>
+        <p>100-28 88th ave<br>
+          Richmond Hill<br>
+          Queens, New York<br>
+          11418</p>
+        <p>Phone:<a href="tel:+6317461967">(631) 746-1967</a></p>
+        <p>Email:<a href="mailto:ashikrizwan99@gmail.com">ashikrizwan99@gmail.com</a></p>
+    </address>
+        <footer>
+      <p style="text-align:center;">@ 2025 Kazi Hasan. All rights reserved.</p>
+           <p style="text-align:center;"><a href="#top">Back to Top</a></p>
+    </footer>
+        </body>
+      </html>

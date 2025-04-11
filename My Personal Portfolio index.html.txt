@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en"> <!--This is to set the language of HTML to English-->
+  
+  <head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <h1>Kazi Hasan</h1>
+      <p>Hello my name is Kazi Hasan and welcome to my personal portfolio webpage where you are going to learn about me, the projects I have done, my skils and a form to contact me.</p>
+      <nav>
+        <a href="#about">About me</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+         
+    <section id="about">
+      <h2>About Me</h2>
+      <p>My name is Kazi Hasan. I am 25 years old. I live in Queens, New York. I was born and raised in Dhaka, Bangladesh. I have graduated from Richmond Hill High School. For college, I am currently attending New York City College of Technology. I am pursuing a bachelors degree in CST(Computer Systems Technology).</p>
+      <img src="https://www.citytech.cuny.edu/images/new_building.jpg?nocache=1742515200032" alt="my college citytech">
+    </section>
+      
+      <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+          <li>
+          <h3>Book Catalog Table</h3>
+          <p>In this project, I have made a book catalog table describing the book's title, author, genre and publication year.</p>
+          </li>
+          <li>
+          <h3>Checkout Page</h3>
+          <p>In this project, I built a checkout page where customer was required to type in their card information for an order to be placed.</p>
+          </li>
+          <li>
+          <h3>Survey Form</h3>
+          <p>In this project, I built a survey form for customers to leave feedback for an Uber ride.</p>
+          </li>
+        </ul>
+    </section>
+    
+    <section id="education">
+      <h2>Education</h2>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Institution</th>
+            <th>Duration</th>
+            <th>Location</th>
+          </tr>
+        </thead>
+          <tbody>
+            <tr>
+              <td>Richmond Hill High School</td>
+              <td>2015-2019</td>
+              <td>Queens, New York</td>
+            </tr>
+            <tr>
+              <td>New York City College of Technology</td>
+              <td>2019-Current</td>
+              <td>Brooklyn, New York</td>
+            </tr>
+        </tbody>
+      </table>
+    </section>
+                
+    <section id="contact">
+      <h2>Contact</h2>
+      <form action="/submit-form" method="post">
+        <label for="name">Name (required):</label><br>
+        <input required type="text" id="name" name="name" placeholder="Ex. Kazi Hasan"><br><br>
+        <label for="email">Email (required):</label><br>
+        <input required type="email" id="email" name="email" placeholder="example5@gmail.com"><br><br>
+        <label>Message</label><br>
+        <textarea id="message" name="message" cols="20" rows="3"></textarea><br>
+        
+        <button id="submit">Submit</button>
+      </form>
+    </section>
+        
+    <footer style="text-align: center;">
+      <p><a href="https://github.com/KaziHasan99">Link to my GitHub profile</a></p> 
+      <p>@2025 Kazi Hasan. All rights are reserved.</p>
+      </footer>
+  </body>
+</html>
