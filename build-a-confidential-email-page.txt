@@ -1,0 +1,75 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Confidential Email</title>
+
+</head>
+
+<body>
+  <main id="email">
+    <div id="confidential">CONFIDENTIAL
+      </div>
+    <div id="top-secret">TOP SECRET
+      </div>
+      <p>Dear Agent <span class="blurred">Kazi Hasan</span><br><br>
+        This message contains sensitive information intended solely for the recipient. Unauthorized access, distribution, or duplication of the contents herein is strictly prohibited. All personnel are advised to review the attached intel and delete this email immediately after acknowledgment. Any breach will be logged and escalated to the <span class="blurred"> Security Compliance</span> Division.</p>
+      <p>As of 0400 hours, the extraction protocol has been initiated under codename <span class="blurred"> “Shadow Thread.”</span> All field agents have been briefed, and encryption keys have been rotated per protocol. Do not disclose mission parameters over unsecured channels. If confirmation is required, <span class="blurred">use Signal Line 3 with cipher variant Delta-7.</span></p>
+      <p>You are hereby instructed to proceed with Phase Two of the rollout. This directive overrides previous communications and must be executed under blackout conditions. All actions must be logged manually and submitted via the <span class="blurred"> offline vault channel.</span> Discretion is paramount — trust no third-party systems.</p>
+
+
+    </main>
+</body>
+
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+#email {
+  box-sizing: border-box;
+  padding: 50px;
+  margin-top: 50px;
+  width: 500px;
+  border: 2px;
+}
+
+#confidential {
+  top: 400px;
+  right: 400px;
+  color: red;
+  display: inline-block;
+  padding: 10px 15px;
+  font-weight: bold;
+  margin-left: 100px;
+  border: 5px solid red;
+  transform: rotate(-15.9deg);
+}
+
+#top-secret {
+  bottom: 800px;
+  left: 4000px;
+  color: red;
+  display: inline-block;
+  padding: 10px 15px;
+  font-weight: bold;
+  margin-left: 100px;
+  border: 5px solid red;
+  transform: rotate(-15.9deg); 
+}
+.blurred {
+  filter: blur(3px);
+}
+
+body {
+  background-color: #fefae0;
+}
+
+** end of undefined **
+
