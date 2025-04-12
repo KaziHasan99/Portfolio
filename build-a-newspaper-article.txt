@@ -1,0 +1,81 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    </head>
+
+    <body>
+      <div class="newspaper">
+        <h1 class="name">The New York Times</h1>
+        <p class="date">April 12, 2025</p>
+        <h2 class="headline">The Andromeda Transmission</h2>
+        <h3 class="sub-headline">Mysterious signal from deep space disrupts global communication</h3>
+        <p class="author">Kazi Hasan</p>
+        <p class="text">At precisely 03:17 GMT, satellites across multiple continents registered a sudden, high-frequency burst originating from the far edge of the Andromeda galaxy.
+
+Want help expanding the article, adding quotes from fictional scientists or government officials, or building the rest of the layout? I’m in if you are. 👽📡</p>
+<p class="text">Preliminary analysis from the International Space Research Coalition (ISRC) suggests the signal is not naturally occurring. “It carries patterns—mathematical sequences, repeating tones, and what may even be a form of binary code,” stated Dr. Lila Navarro, lead astrophysicist at the ISRC. “We dont want to jump to conclusions, but we have never seen anything like this.”</p>
+        </div>
+      </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+html {
+  font-size: 24px;
+}
+
+.newspaper {
+  font-size: 16px;
+  font-family: Open Sans, sans-serif;
+}
+
+.date {
+  font-style: italic;
+  text-align: center;
+}
+
+.name {
+  text-align: center;
+  font-size: 2rem;
+  font-family: Times New Roman, serif;
+}
+
+.name, .author {
+  text-transform: uppercase;
+}
+
+.headline {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.sub-headline {
+  font-style: italic;
+  font-weight: 100;
+  font-size: 1.5em;
+}
+
+.author {
+  font-weight: bold
+}
+
+.text {
+  text-indent: 20px;
+  line-height: 2em;
+}
+
+.text::first-letter {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+** end of undefined **
+
