@@ -1,0 +1,185 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <title>Book Inventory</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+   <h1>Book Inventory</h1>
+   <table>
+     <thead>
+       <tr>
+         <th>Title</th>
+         <th>Author</th>
+         <th>Category</th>
+         <th>Status</th>
+         <th>Rate</th>
+         </tr>
+       </thead>
+
+       <tbody>
+         <tr class="read">
+           <td>Atomic Habits</td>
+           <td>James Clear</td>
+           <td>Self-help</td>
+           <td><span class="status">Read</span></td>
+           <td>
+             <span class="rate two">
+                 <span></span>
+                 <span></span>
+                 <span></span>
+                 </span>
+                 </td>
+           </tr>
+
+           <tr class="to-read">
+             <td>1984</td>
+             <td>George Orwell</td>
+             <td>Dystopian Fiction</td>
+             <td><span class="status">To Read</span></td>
+             <td>
+               <span class="rate">
+                 <span></span>
+                 <span></span>
+                 <span></span>
+                 </span>
+                 </td>
+             </tr>
+
+             <tr class="in-progress">
+               <td>The Pragmatic Programmer</td>
+               <td>Andrew Hunt</td>
+               <td>Technology</td>
+               <td><span class="status">In Progress</span></td>
+               <td>
+                 <span class="rate">
+                   <span></span>
+                   <span></span>
+                   <span></span>
+                   </span>
+                   </td>
+               </tr>
+
+               <tr class="read">
+                 <td>To kill a Mockingbird</td>
+                 <td>Harper Lee</td>
+                 <td>Classic Fiction</td>
+                 <td><span class="status">Read</span></td>
+                 <td>
+                   <span class="rate three">
+                       <span></span>
+                       <span></span>
+                       <span></span>
+                       </span>
+                       </td>
+                 </tr>
+
+                 <tr class="to-read">
+                   <td>Educated</td>
+                   <td>Tara Westover</td>
+                   <td>Memoir</td>
+                   <td><span class="status">To Read</span></td>
+                   <td>
+                     <span class="rate">
+                       <span></span>
+                       <span></span>
+                       <span></span>
+                       </span>
+                       </td> 
+                   </tr>
+         </tbody>
+     </table>
+</body>
+
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+table {
+  border: none;
+  width: 100%;
+}
+
+thead th {
+  background-color: #96c1f9;
+  font-size: 20px;
+  font-weight: bold;
+  border: 2px solid black;
+}
+
+span {
+  display: inline-block;
+}
+
+
+tr[class="read"] {
+  background-image: linear-gradient(to right, red, skyblue);
+}
+
+tr[class="to-read"] {
+  background-image: linear-gradient(to right, cyan, magenta);
+}
+
+tr[class="in-progress"] {
+  background-image: linear-gradient(to right, lightgreen, orange);
+}
+
+tr[class="to-read"] span[class="status"] {
+  border: 2px solid black;
+  background-image: linear-gradient(to right, yellow, green);
+}
+
+tr[class="read"] span[class="status"] {
+  border: 2px solid black;
+  background-image: linear-gradient(45deg, silver, orange);
+}
+
+tr[class="in-progress"] span[class="status"] {
+  border: 2px solid black;
+  background-image: linear-gradient(90deg, skyblue, teal)
+}
+
+span[class="status"], span[class^="rate"] {
+  height: 40px;
+  width: 60px;
+  padding: 5px;
+}
+
+span[class^="rate"] {
+  display: flex;
+  justify-content: flex-start;
+}
+
+span[class^="rate"] > span {
+  border: 8px solid white;
+  border-radius:100%;
+  margin: 0;
+  height: 10px;
+  width: 20px;
+  background-color: white;
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+span[class~="one"] > *:first-child {
+  background-image: linear-gradient(to left, black, white);
+}
+
+span[class~="two"] > *:nth-child(-n+2) {
+  background-image : linear-gradient(to right, teal, red);
+}
+
+span[class~="three"] span {
+  background-image: linear-gradient(to right, teal, red);
+}
+
+** end of undefined **
+
