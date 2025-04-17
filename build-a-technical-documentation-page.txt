@@ -1,0 +1,174 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8" />
+    <title>Technical Documentation Page</title>
+  </head>
+
+  <body>
+    <nav id="navbar">
+              <header>AI and Web Development Documentation</header>
+              <a class="nav-link" href="#artificial_intelligence">Artificial Intelligence</a>
+              <a class="nav-link" href="#html">HTML</a>
+            <a class="nav-link" href="#css">CSS</a>
+            <a class="nav-link" href="#lists">Lists</a>
+            <a class="nav-link" href="#forms">Forms</a>
+              </nav><br><br>
+
+
+    <main id="main-doc">
+      <section class="main-section" id="artificial_intelligence">
+        <header>Artificial Intelligence</header>
+          <p>Artificial Intelligence (AI) is reshaping the way people work across nearly every industry. From automating repetitive tasks in manufacturing to assisting in data analysis for finance, AI is improving efficiency and accuracy. Companies are now integrating AI into everyday workflows, such as customer service chatbots, fraud detection systems, and smart logistics. As these tools become more advanced, businesses are finding ways to reduce costs and increase productivity—often changing the expectations for human workers in the process.</p>
+          <p>One major impact of AI is the potential for job displacement, particularly in roles that rely on routine or repetitive tasks. For example, entry-level data entry jobs, basic customer support, and certain transportation roles are at risk of being automated. However, AI is also creating new jobs in fields like machine learning engineering, AI ethics, and data science. Rather than eliminating all human work, AI is shifting what kinds of work are most valuable—leading to a greater need for skills that machines can't easily replicate.</p>
+          <p>Critical thinking and problem-solving will be highly sought-after skills in the AI-driven workplace. As AI takes over repetitive tasks, humans will be expected to manage, interpret, and make strategic decisions based on AI-generated insights. Likewise, creativity—whether in writing, design, or innovative thinking—will become a key differentiator. People who can approach problems from new angles and adapt to unfamiliar situations will remain valuable in industries that are rapidly evolving.</p>
+          <p>Emotional intelligence and communication skills are also rising in importance. While AI can process data, it still struggles to understand human emotions and complex interpersonal dynamics. Jobs in leadership, negotiation, education, and caregiving will continue to rely heavily on human empathy and intuition. Being able to collaborate effectively with both people and intelligent systems will be a core skill, especially as hybrid human-AI teams become more common in the workplace.</p>
+          <p>In conclusion, AI is undeniably changing the future of work. While it may reduce the demand for certain jobs, it is also creating opportunities in areas that require uniquely human abilities. To thrive in the next 10 years, workers will need to embrace lifelong learning and focus on developing adaptable, human-centered skills. The key will be not to compete with AI, but to collaborate with it—using its strengths to amplify our own.</p>
+            
+        </section><br>
+
+        <section class="main-section" id="html">
+          <header>HTML</header>
+          <p>Learning HTML is one of the most important first steps for anyone interested in web development. HTML, or HyperText Markup Language, is the backbone of all websites—it structures the content on the web. Whether you’re building a simple personal blog or a complex e-commerce platform, understanding HTML allows you to create and organize content like text, images, links, and forms. It lays the groundwork before moving on to more complex technologies like CSS, JavaScript, and frameworks.</p>
+          <p>Two key reasons why beginners should start with HTML are:</p>
+          <ul>
+          <li>It gives you full control over the content and structure of your web pages.</li>
+          <li>It's easy to learn and can be practiced without installing any complicated tools—just a text editor and a browser.</li>
+          </ul>
+          <p>Here's a simple example of HTML code that displays a heading and a paragraph:</p>
+          <pre><code>
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;My First Page&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Hello, World!&lt;/h1&gt;
+    &lt;p&gt;This is my first web page using HTML.&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+            
+        </section><br>
+
+        <section class="main-section" id="css">
+          <header>CSS</header>
+          <p>CSS (Cascading Style Sheets) is used to control the appearance of HTML elements on a web page. It lets you customize colors, fonts, spacing, layouts, and much more. Without CSS, all web pages would look very plain and unstyled. By linking a CSS file or writing CSS directly into an HTML file, developers can create beautiful, responsive websites that work across different devices.</p>
+          <p>Some basic things you can do with CSS include:</p>
+          <ul>
+          <li>Changing the background color of a page or element</li>
+          <li>Styling text with fonts, sizes, and colors</li>
+          </ul>
+          <p>Here's an example of a CSS rule that changes the text color of all &lth1&gt headings to blue:</p>
+          <pre><code>
+          h1 {<br>
+  color: blue;<br>
+}
+</code></pre>
+            
+        </section><br>
+        <section class="main-section" id="lists">
+          <header>Lists</header>
+          <p>Lists are an essential part of web pages, allowing you to display items in an ordered or unordered way. In HTML, there are two main types of lists: ordered lists (numbered) and unordered lists (bulleted). You can easily create these lists using the &ltul&gt (unordered list) and &ltol&gt (ordered list) elements, along with the &ltli&gt (list item) tag to define each item within the list.</p>
+            <p>For example, if you want to create an unordered list of your favorite fruits, you can write it like this:</p>
+            <pre><code>
+&lt;ul&gt;
+  &lt;li&gt;Apple&lt;/li&gt;
+  &lt;li&gt;Banana&lt;/li&gt;
+  &lt;li&gt;Cherry&lt;/li&gt;
+  &lt;li&gt;Orange&lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>
+<ul>
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Cherry</li>
+            <li>Orange</li>
+            </ul>
+           <pre><code>
+&lt;ol&gt;
+  &lt;li&gt;Boil water&lt;/li&gt;
+  &lt;li&gt;Add coffee grounds&lt;/li&gt;
+  &lt;li&gt;Pour hot water over coffee&lt;/li&gt;
+  &lt;li&gt;Stir and enjoy!&lt;/li&gt;
+&lt;/ol&gt;
+</code></pre>
+<ol>
+            <li>Boil water</li>
+            <li>Add coffee grounds</li>
+            <li>Pour hot water over coffee</li>
+            <li>Stir and enjoy</li>
+              </ol>
+
+        </section><br>
+        <section class="main-section" id="forms">
+          <header>Forms</header>
+          <p>Forms are a vital part of interactive web pages, allowing users to submit data, whether it&#39;s a contact form, survey, or login. In HTML, forms are created using the &lt;form&gt; tag, which wraps various input elements such as text fields, radio buttons, checkboxes, and buttons. Each form element is represented by a corresponding tag, such as &lt;input&gt;, &lt;textarea&gt;, &lt;select&gt;, and &lt;button&gt;. These elements are combined within the &lt;form&gt; to allow users to fill in information and submit it to a server.</p>
+          <p>Here's an example of a simple HTML form to collect user information:</p>
+          <pre><code>
+&lt;form&gt;
+  &lt;label for=&quot;name&quot;&gt;Name:&lt;/label&gt;
+  &lt;input type=&quot;text&quot; id=&quot;name&quot; name=&quot;name&quot;&gt;
+  
+  &lt;label for=&quot;email&quot;&gt;Email:&lt;/label&gt;
+  &lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot;&gt;
+  
+  &lt;label for=&quot;gender&quot;&gt;Gender:&lt;/label&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;input type=&quot;radio&quot; id=&quot;male&quot; name=&quot;gender&quot; value=&quot;male&quot;&gt; Male&lt;/li&gt;
+    &lt;li&gt;&lt;input type=&quot;radio&quot; id=&quot;female&quot; name=&quot;gender&quot; value=&quot;female&quot;&gt; Female&lt;/li&gt;
+  &lt;/ul&gt;
+
+  &lt;button type=&quot;submit&quot;&gt;Submit&lt;/button&gt;
+&lt;/form&gt;
+</code></pre>
+           <p>Here is another example:</p>
+           <pre><code>
+&lt;form&gt;
+  &lt;label for=&quot;username&quot;&gt;Username:&lt;/label&gt;
+  &lt;input type=&quot;text&quot; id=&quot;username&quot; name=&quot;username&quot;&gt;&lt;br&gt;&lt;br&gt;
+
+  &lt;label for=&quot;feedback&quot;&gt;Your Feedback:&lt;/label&gt;&lt;br&gt;
+  &lt;textarea id=&quot;feedback&quot; name=&quot;feedback&quot; rows=&quot;4&quot; cols=&quot;40&quot;&gt;&lt;/textarea&gt;&lt;br&gt;&lt;br&gt;
+
+  &lt;label for=&quot;rating&quot;&gt;Rate our service:&lt;/label&gt;
+  &lt;select id=&quot;rating&quot; name=&quot;rating&quot;&gt;
+    &lt;option value=&quot;excellent&quot;&gt;Excellent&lt;/option&gt;
+    &lt;option value=&quot;good&quot;&gt;Good&lt;/option&gt;
+    &lt;option value=&quot;average&quot;&gt;Average&lt;/option&gt;
+    &lt;option value=&quot;poor&quot;&gt;Poor&lt;/option&gt;
+  &lt;/select&gt;&lt;br&gt;&lt;br&gt;
+
+  &lt;input type=&quot;checkbox&quot; id=&quot;subscribe&quot; name=&quot;subscribe&quot;&gt;
+  &lt;label for=&quot;subscribe&quot;&gt;Subscribe to our newsletter&lt;/label&gt;&lt;br&gt;&lt;br&gt;
+
+  &lt;button type=&quot;submit&quot;&gt;Submit Feedback&lt;/button&gt;
+&lt;/form&gt;
+</code></pre>
+          
+        </section>
+      </main>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+@media screen and (max-width: 1400px) {
+  #navbar {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+header {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+** end of undefined **
+
