@@ -1,0 +1,86 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+<meta charset="utf-8">
+<title>Magazine Layout</title>
+</head>
+
+<body>
+   <main class="magazine-cover">
+     <header class="title">The Rise of Urban Gardening
+       </header>
+       <section class="feature-article">
+         <p>Urban gardening is transforming rooftops, balconies, and small patios into lush, green sanctuaries. With the rise of eco-conscious living and limited outdoor space in cities, people are finding innovative ways to grow their own food and create calming natural environments. From potted herbs on windowsills to vertical gardens on apartment walls, urban gardening is becoming a stylish and sustainable trend.</p>
+         </section>
+         <section class="small-article1">
+           <p>This movement isn't just about aesthetics—it's also addressing food insecurity and mental health. Growing fresh produce at home reduces dependence on grocery stores and encourages healthier eating habits. Additionally, tending to plants has been shown to relieve stress, boost mood, and promote mindfulness, making urban gardening a therapeutic hobby for many city dwellers.</p>
+         </section>
+         <section class="small-article2">
+           <p>As technology continues to evolve, so does the potential of urban gardening. Smart sensors, automated watering systems, and community garden apps are making it easier than ever to grow thriving plants in tight spaces. With support from city governments and local organizations, urban gardening is shaping up to be more than a passing trend—it’s a movement toward greener, healthier cities.</p>
+         </section>
+         <section class="cover-image">
+           <img src="https://hyper-logic.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/Urban-garden.jpg.webp" alt="Urban gardening in the heart of a modern city" loading="lazy">
+         </section>
+     </main>
+</body>
+
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+html {
+  font-size: 1.5rem;
+  font-family: Anton, sans-serif;
+}
+
+h1 {
+  color: white;
+  font-weight: bold;
+  width: 100%;
+  background-color: #112240;
+}
+
+.magazine-cover {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto 1fr 1fr;
+  grid-template-areas: 
+  "title title title"
+  "feature-article feature-article cover-image"
+  "small-article1 small-article2 cover-image";
+    gap: 10px;
+}
+
+.title {
+  margin-bottom: 20px;
+  padding-top: 20px;
+  height: 50px;
+  color: white;
+  text-align: center;
+  background-color: #112240;
+  grid-area: title;
+}
+
+.feature-article {
+  grid-area: feature-article;
+}
+
+.cover-image {
+  grid-area: cover-image;
+}
+
+img {
+  margin-top: 20px;
+  width: 500px;
+  height: 500px;
+}
+
+** end of undefined **
+
