@@ -1,0 +1,89 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+    <title>Moon Orbit</title>
+</head>
+
+<body>
+  <div class="space">
+      <div class="earth"></div>
+      <div class="orbit">
+          <div class="moon"></div>
+      </div>
+      </div>      
+</body>
+
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.space {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
+.space {
+  position: relative;
+}
+
+.earth {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 100px;
+  background-color: #2e86de;
+  border-radius: 50%;
+}
+
+.orbit {
+  animation: orbit 5s linear infinite;
+  position: absolute;
+  right: 50%;
+  bottom: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  height: 200px;
+}
+
+.moon {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 30px;
+  background-color: #ccc;
+  border-radius: 50%;
+}
+
+@keyframes orbit {
+  0% {
+    transform: rotate(0deg) translate(-50%, -50%);
+  }
+  100% {
+    transform: rotate(360deg) translate(-50%, -50%);
+  }
+}
+
+
+** end of undefined **
+
