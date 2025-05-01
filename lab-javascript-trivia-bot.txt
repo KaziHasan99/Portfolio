@@ -1,0 +1,19 @@
+console.log("Hello! I'm your coding fun fact guide!");
+
+let botName = "Hasan";
+let botLocation = "Earth";
+let favoriteLanguage = "JavaScript";
+console.log("My name is " + botName + " and I live on " + botLocation + ".");
+console.log("My favorite programming language is " + favoriteLanguage + ".");
+
+let codingFact = "It only took 10 days to create " + favoriteLanguage + ".";
+console.log(codingFact);
+
+codingFact = "You can run " + favoriteLanguage + " in your web browser without needing to install anything.";
+console.log(codingFact);
+
+codingFact = "Originally " + favoriteLanguage + " was designed for small scripts, but now it's used to build full applications.";
+console.log(codingFact);
+
+console.log("It was fun sharing these facts with you. Goodbye! - " + botName + " from " + botLocation + ".");
+
