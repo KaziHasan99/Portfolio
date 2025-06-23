@@ -1,0 +1,37 @@
+** start of index.html **
+
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Movie Review</title>
+ </head>
+
+<body>
+    <main>
+        <h1>Inception</h1>
+        <img src="https://m.media-amazon.com/images/M/MV5BMjExMjkwNTQ0Nl5BMl5BanBnXkFtZTcwNTY0OTk1Mw@@._V1_.jpg" alt="The official cover for the Inception Movie" width="100%">
+        <p>Inception is a 2010 science fiction thriller directed by Christopher Nolan. The story follows Dom Cobb, a skilled thief who specializes in stealing secrets from deep within the subconscious during the dream state. His rare ability has made him a coveted player in the world of corporate espionage, but it has also cost him everything he loves. Cobb is offered a chance to have his past crimes erased if he can pull off the impossible — inception: planting an idea into someone's mind without them realizing it. As Cobb and his team descend into layers of dreams within dreams, they face unexpected dangers and a race against time, where the line between reality and illusion begins to blur.</p>
+        <p><strong>Movie Rating:</strong><span aria-hidden="true">⭐⭐⭐⭐⭐⭐⭐⭐⭐☆</span> (9.0/10)</p>
+        <h2>Cast Members</h2>
+        <ul>
+            <li><strong>Leonardo DiCaprio</strong> as Dom Cobb</li>
+            <li><strong>Joseph Gordon-Levitt</strong> as Arthur</li>
+            <li><strong>Elliot Page</strong> as Ariadne</li>
+            <li><strong>Tom Hardy</strong> as Eames</li>
+            <li><strong>Ken Watanabe</strong> as Saito</li>
+            <li><strong>Cillian Murphy</strong> as Robert Fischer</li>
+            <li><strong>Marion Cotillard</strong> as Mal Cobb</li>
+            <li><strong>Michael Caine</strong> as Professor Stephen Miles</li>
+            <li><strong>Dileep Rao</strong> as Yusuf</li>
+            <li><strong>Tom Berenger</strong> as Peter Browning</li>
+            </ul>
+        </main>
+
+</body>
+
+</html>
+
+** end of index.html **
+
