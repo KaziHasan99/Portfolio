@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+</head>
+<body>
+    <h1>Kazi Hasan</h1>
+    <p>Phone:<a href="tel:6317461967">(631) 746-1967</a></p>  
+    <p>Email:<a href="mailto:kazihasan9977@gmail.com">kazihasan9977@gmail.com</a></p>
+    <p>Queens, New York</p>
+    <a href="https://github.com/KaziHasan99/Portfolio">github Profile</a></p>
+
+    <hr>
+
+    <h2>Education</h2>
+    <h3>New York City College of Technology | August 2019 - December 2025 (expected)</h3>
+    <p>Bachelor of Technology in Computer Systems Technology<br>
+    Significant Cooursework: Web Development, Programming Fundamentals, Database Management, Object-Oriented Programming <br>
+    Activites: ASAP Program</p>
+
+    <hr>
+
+    <h2>Skills</h2>
+    <p><strong>Web Development: </strong>HTML/CSS (Proficient), JavaScript (Learning)</p>
+    <p><strong>Tools: </strong>Git, VS Code, FreeCodeCamp, Udemy</p>
+    <p><strong>Other Skills: </strong>Fluent in Bangla, verbally conversational in Hindi and Urdu</p>
+
+    <hr>
+
+    <h2>Projects</h2>
+    <h3>Personal Portfolio</h3>
+    <ul>
+        <li>Designed and developed a responsive portfolio website using HTML and CSS to showcase personal web development projects.</li><br>
+        <li>Applied clean layout techniques and consistent visual hierarchy for an intuitive user experience.</li><br>
+        <li>Ensured mobile compatibility through responsive design principles and media queries.
+</li>
+    </ul>
+    <h3>Travel Agency Page</h3>
+    <ul>
+        <li>Developed a travel-themed promotional web page for Bangladesh using HTML and CSS</li><br>
+        <li>Utilized modern styling and layout techniques to enhance visual appeal and user engagement.</li><br>
+        <li>Focused on branding and aesthetic consistency to deliver a compelling destination showcase.</li>
+    </ul>
+    <h3>To-DO List Application</h3>
+    <ul>
+        <li>Built a dynamic task management web app enabling users to add and view tasks.</li><br>
+        <li>Implemented CSS styling for a minimalist, user-friendly interface.</li><br>
+        <li>Prioritized simplicity and usability to support efficient task tracking.</li>
+    </ul>
+    <h3>Checkout Page</h3>
+    <ul>
+        <li>Developed a responsive checkout page simulating a modern eCommerce layout using HTML and CSS.</li><br>
+        <li>Structured pricing sections and payment details to enhance clarity and user flow.</li><br>
+        <li>Demonstrated proficiency in layout design with flexible content blocks optimized for various screen sizes.</li>
+    </ul>
+
+    <hr>
+
+    <h2>Work Experience</h2>
+    <p><strong>cashier </strong>| Chekers, Queens, NY | August 2018 - March 2020</p>
+    <ul>
+        <li> Delivered prompt, friendly customer service while efficiently managing cash register operations.</li><br>
+        <li>Maintained cleanliness and organization of the front area and supported team operations.</li>
+    </ul>
+</body>
+</html>
