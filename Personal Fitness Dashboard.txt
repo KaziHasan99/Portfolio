@@ -1,0 +1,360 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>My Fitness Journey</title>
+</head>
+<body>
+    <section id="navbar">
+        <img src="https://png.pngtree.com/png-clipart/20200709/original/pngtree-simple-fitness-logo-design-template-png-image_3590982.jpg" alt="Fitness Logo">
+        <nav class="nav">
+            <ul>
+                <li><a href="#header">Header</a></li>
+                <li><a href="#goals">Goals</a></li>
+                <li><a href="#workout">Workout</a></li>
+                <li><a href="#tips">Tips</a></li>
+                <li><a href="#footer">Footer</a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+            </ul>
+        </nav>
+    </section><br><br>
+
+    <section id="header">
+        <img src="https://www.o2fitnessclubs.com/hubfs/Club%20Specific/University%20Hill/University%20Hill%20-%20DURM.jpg" alt="Header Image">
+        <h1>Personal Fitness Dashboard</h1>
+        <h2>“Push yourself, because no one else is going to do it for you.”</h2>
+    </section>
+
+    <section id="goals">
+        <h2>"Setting clear fitness goals gives you direction and motivation. Whether it’s reducing weight, walking more steps, or managing your daily calories, each goal you achieve brings you closer to a healthier lifestyle."
+
+        </h2>
+        <ul>
+            <li class="weight" >
+                <img src="https://emi.parkview.com/media/Image/Dashboard_835_Addressing-the-most-common-weight-loss-myths_12_23.jpeg" alt="Weight Loss Target">
+                <p><strong>Weight Goal: </strong>220 lbs</p>
+            </li>
+            <li class="steps" >
+                <img src="https://static01.nyt.com/images/2018/07/03/well/physed-walk/physed-walk-videoSixteenByNineJumbo1600.jpg" alt="Steps Per Day Target">
+                <p><strong>Steps Per Day: </strong>10,000 steps</p>
+            </li>
+            <li class="calorie" >
+                <img src="https://www.energy.fit/cdn/shop/articles/calories_1.jpg?crop=center&height=1200&v=1638556190&width=1200" alt="Calories Per Day Target">
+                <p><strong>Calories Per Day: </strong> 1000 kcal</p>
+            </li>
+        </ul>
+    </section>
+
+    <section id="workout">
+        <h2>"A well-structured workout plan keeps you consistent and focused. By balancing strength, cardio, and rest days, you ensure steady progress while avoiding burnout and injuries."</h2>
+        <div class="container">
+        <div class="pull">
+            <h3>Pull day</h3>
+            <ul>
+                <li>Lat Pulldown</li>
+                <li>Diverging Seated Row</li>
+                <li>Seated Cable Rows</li>
+                <li>Reverse Fly</li>
+                <li>Bicep Curls</li>
+                <li>Cable Curls</li>
+            </ul>
+        </div>
+
+        <div class="push">
+            <h3>Push day</h3>
+            <ul>
+                <li>Bench Press</li>
+                <li>Shoulder Press</li>
+                <li>Incline Dumbell Press</li>
+                <li>Pec Fly</li>
+                <li>Tricep Pushdowns</li>
+                <li>Overhead Tricep Extension</li>
+            </ul>
+        </div>
+        </div>
+    </section>
+
+    <section id="tips">
+        <h2>"Healthy habits go beyond the gym — staying hydrated, eating nutrient-rich foods, getting enough sleep, and taking time to recover are just as important as your workouts. Small daily actions lead to long-term results and help you stay consistent on your fitness journey."</h2>
+        <div class="tips">
+        <div class="nutrition">
+            <h4>Nutrition Tips</h4>
+            <ul>
+                <li>Drink at least 2-3 liters of water daily.</li>
+                <li>Focus on whole foods: fruits, vegetables, lean proteins, whole grains.</li>
+                <li>Limit processed sugar and fast food intake.</li>
+            </ul>
+        </div>
+
+        <div class="recovery">
+            <h4>Recovery Tips</h4>
+            <ul>
+                <li>Prioritize 7-8 hours of sleep for muscle recovery.</li>
+                <li>Stretch or foam roll after workouts to prevent soreness.</li>
+                <li>Take rest days to avoid overtraining.</li>
+            </ul>
+        </div>
+
+        <div class="lifestyle">
+            <h4>Lifestyle Habits</h4>
+            <ul>
+                <li>Stay consistent with workout times for better routine.</li>
+                <li>Track your progress weekly (photos, weight, reps).</li>
+                <li>Manage stress through breathing or light walks.</li>
+            </ul>
+        </div>
+
+        <div class="general">
+            <h4>General Health Reminders</h4>
+            <ul>
+                <li>Warm up before lifting to prevent injuries.</li>
+                <li>Maintain proper form to avoid strain.</li>
+                <li>Listen to your body — adjust intensity if needed.</li>
+            </ul>
+        </div>
+
+        <div class="safety">
+            <h4>Safety & Hygiene</h4>
+            <ul>
+                <li>Wear proper shoes and attire for your workouts.</li>
+                <li>Use a towel to avoid sweat on equipment.</li>
+                <li>Report broken equipment to gym staff immediately.</li>
+            </ul>
+        </div>
+
+        <div class="sharing">
+            <h4>Equipment Sharing</h4>
+            <ul>
+                <li>Re-rack your weights after use.</li>
+                <li>Wipe down machines and benches when you're done.</li>
+                <li>Allow others to “work in” between your sets if the gym is busy.</li>
+            </ul>
+        </div>
+        </div>
+    </section>
+
+    <section id="footer">
+        <p>@2025 Fitness Center</p>
+        <a href="https://www.linkedin.com/in/kazi-hasan-b70a1b23b/">LinkedIn</a>
+        <a href="https://x.com/KaziHasan311424">Twitter</a>
+        <a href="https://github.com/KaziHasan99">GitHub</a>
+    </section>
+
+</body>
+</html>
+
+** end of undefined ** 
+
+** start of undefined ** 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
+#navbar img {
+    width: 200px;
+    height: auto;
+}
+
+.nav ul {
+    font-size: 1.5rem;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1;
+    margin-left: 40px;
+}
+
+.nav li {
+    margin: 0 30px;
+}
+
+li a {
+    text-decoration: none;
+    color: teal;
+}
+
+#header img {
+    width: 100%;
+    height: 100vh;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+#header h1 {
+    position: relative;
+    top: -900px;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: bold;
+    color: floralwhite;
+}
+
+#header h2 {
+    position: relative;
+    top: -800px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: lightgoldenrodyellow;
+}
+
+#goals {
+    margin-top: 50px;
+}
+
+#goals h2 {
+    text-align: center;
+    color: cornflowerblue;
+    margin-bottom: 50px;
+    font-size: 2rem;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 80px;
+}
+
+#goals ul {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    padding: 0;
+    width: 80%;
+}
+
+#goals img {
+    width: 250px;
+    height: 200px;
+}
+
+#goals li {
+    list-style-type: none;
+}
+
+li p {
+    padding: 20px;
+    font-size: 1rem;
+}
+
+#workout h2 {
+    width: 70%;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 150px;
+    color: cornflowerblue;
+    margin-bottom: 50px;
+    margin: 200px auto 80px auto;
+}
+
+.push {
+    width: 400px;
+    background-color: aqua;
+    text-align: center;
+}
+
+.pull {
+    width: 400px;
+    background-color: coral;
+    text-align: center;
+}
+
+.push h3 {
+    padding: 15px;
+    font-size: 1.5rem;
+}
+
+.pull h3 {
+    font-size: 1.5rem;
+    padding: 15px;
+}
+
+.container {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin: auto;
+}
+
+.pull li {
+    padding: 10px;
+}
+
+.push li {
+    padding: 10px; 
+}
+
+.container li {
+    list-style-type: none;
+}
+
+.tips h4 {
+    font-size: 1.5rem;
+    padding: 15px;
+}
+
+.tips li {
+    list-style-type: none;
+    padding: 5px;
+}
+
+.tips {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    width: 70%;
+    margin: auto;
+    justify-content: center;
+}
+
+.tips div {
+    width: 300px;
+    margin: 0 auto;
+    background-color: bisque;
+}
+
+#tips h2 {
+    width: 70%;
+    text-align: center;
+    font-size: 2rem;
+    color: cornflowerblue;
+    margin-bottom: 50px;
+    margin: 250px auto 60px auto;
+}
+
+#footer {
+    margin-top: 200px;
+    width: 100%;
+    height: 300px;
+    background-color: teal;
+    text-align: center;
+}
+
+#footer p {
+    font-size: 1.5rem;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+#footer a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: midnightblue;
+    padding-left: 10px;
+}
