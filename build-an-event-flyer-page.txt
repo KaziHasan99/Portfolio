@@ -1,0 +1,54 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Build an Event Flyer Page</title>
+</head>
+
+<body>
+  <header>
+    <img>
+    <h1>Tech Connect Nyc 2025</h1>
+  </header>
+  <main>
+    <section>
+      <h2>Event Details</h2>
+      <p>Join students, professionals, and tech enthusiasts for a full day of networking, learning, and innovation in the heart of New York City. Discover emerging technologies, meet industry experts, and explore career oppurtunities.</p>
+        </section><hr>
+    <section>
+      <h2>What to expect</h2>
+      <p>Experience live tech talks, hands-on demos, internships and job networking, and oppurtunities to connect with startups and established companies. Perfect for beginners, students, and aspiring developers.
+    </section>
+  </main>
+</body>
+
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+body {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: auto;
+  margin-left: auto;
+  width: 90vw;
+  min-height: calc(100vh - 100px);
+}
+hr {
+  width: 70%;
+}
+section {
+  width: 100%;
+}
+
+** end of styles.css **
+
