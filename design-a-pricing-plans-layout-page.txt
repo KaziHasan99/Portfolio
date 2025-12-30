@@ -1,0 +1,124 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Pricing Plans Layout Page</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1>Pricing Plans</h1>
+    <div class="pricing-container">
+      <div class="pricing-card basic-plan">
+        <h2>Basic</h2>
+        <p>$9/month</p>
+        <ul>
+          <li class="basic">Access to our core features</li>
+          <li class="basic">Email support</li>
+          <li class="bas">Advanced analytics</li>
+          <li class="bas">Custom integrations</li>
+          <li class="bas">Priority support</li>
+          </ul>
+          <button type="choose">Choose Plan</button>
+        </div>
+      <div class="pricing-card pro-plan">
+        <h2>Pro</h2>
+        <p>$19/month</p>
+        <ul>
+          <li class="pro">Access to our core features</li>
+          <li class="pro">Email support</li>
+          <li class="pro">Advanced analytics</li>
+          <li class="pro">Custom integrations</li>
+          <li class="prono">Priority support</li>
+          </ul>
+          <button type="choose">Choose Plan</button>
+      </div>
+      <div class="pricing-card premium-plan">
+        <h2>Premium</h2>
+        <p>$29/month</p>
+        <ul>
+         <li class="pre">Access to our core features</li>
+         <li class="pre">Email support</li>
+         <li class="pre">Advanced analytics</li>
+         <li class="pre">Custom integrations</li>
+         <li class="pre">Priority support</li>
+          </ul>
+          <button type="choose">Choose Plan</button>
+      </div>
+    </div>
+  </body>
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+.pricing-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.pricing-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 0 0 200px;
+  width: 100%;
+  border: 2px solid black;
+}
+.basic-plan {
+  order: 0;
+}
+.pro-plan {
+  flex-grow: 2;
+  order: 1;
+}
+.premium-plan {
+  order: 2;
+}
+h1 {
+  text-align: center;
+}
+button {
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: orange;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+li {
+  list-style: none;
+}
+.pre::before {
+  content: "✓";
+  color: green;
+  padding: 5px;
+}
+.pro::before {
+  content: "✓";
+  color: green;
+  padding: 5px;
+}
+.prono::before {
+  content: "✗";
+  color: red;
+  padding: 5px;
+}
+.basic::before {
+  content: "✓";
+  color: green;
+  padding: 5px; 
+}
+.bas::before {
+  content: "✗";
+  color: red;
+  padding: 5px;
+}
+body {
+  width: 50%;
+  text-align: center;
+}
+
+
+** end of styles.css **
+
