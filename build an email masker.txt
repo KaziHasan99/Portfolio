@@ -1,0 +1,14 @@
+function maskEmail(email) { 
+  let findAt = email.indexOf("@"); 
+  let userName = email.slice(0, findAt); 
+  let domain = email.slice(findAt, email.length); 
+  let firstChar = userName[0]; 
+  let lastChar = userName[userName.length-1]; 
+  let stars = "*"; 
+  let repeatedStars = stars.repeat(userName.length-2); 
+  let maskedUsername = firstChar + repeatedStars + lastChar; 
+  return maskedUsername + domain; 
+}
+
+let email = "apple.pie@example.com";
+console.log(maskEmail(email));
