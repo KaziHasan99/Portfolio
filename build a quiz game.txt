@@ -1,0 +1,62 @@
+const questions = [];
+
+let obj1 = {
+  category : "Math",
+  question : "What is the square root of 64?",
+  choices : ["6", "8", "10"],
+  answer : "8"
+};
+
+let obj2 = {
+  category : "Geography",
+  question : "Which country has the largest land area?",
+  choices : ["Russia", "Canada", "China"],
+  answer : "Russia"
+};
+
+let obj3 = {
+  category : "Science",
+  question : "What gas do plants absorb for photosyntheis?",
+  choices : ["Oxygen", "Carbon Dioxide", "Nitrogen"],
+  answer : "Carbon Dioxide"
+};
+
+let obj4 = {
+  category : "History",
+  question : "Who was the first President of the United States?",
+  choices : ["Abraham Lincoln", "George Washington", "Thomas Jefferson"],
+  answer : "George Washington"
+};
+
+let obj5 = {
+  category : "Technology",
+  question : "Which company developed the iphone?",
+  choices : ["Apple", "Samsung", "Microsoft"],
+  answer : "Apple"
+};
+
+questions.push(obj1, obj2, obj3, obj4, obj5);
+
+function getRandomQuestion(questions) {
+  return questions[Math.floor(Math.random() * questions.length)];
+}
+
+let randomQues = getRandomQuestion(questions);
+console.log(randomQues);
+
+function getRandomComputerChoice(choices) {
+  return choices[Math.floor(Math.random() * choices.length)];
+}
+
+let randomChoice = getRandomComputerChoice(randomQues.choices);
+console.log(randomChoice);
+
+function getResults(randomQues, randomChoice) {
+  if (randomQues.answer === randomChoice) {
+    return "The computer's choice is correct!";
+  } else {
+    return `The computer's choice is wrong. The correct answer is: ${randomQues.answer}`;
+  }
+}
+
+console.log(getResults(randomQues, randomChoice));
